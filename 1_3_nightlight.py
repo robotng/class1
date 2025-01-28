@@ -2,7 +2,7 @@ from machine import ADC, Pin
 from time import sleep
 
 photoresistor = ADC(0)
-led = Pin(2, Pin.OUT)
+led = Pin(4, Pin.OUT)
 LIMIT = 300
 
 while True:
